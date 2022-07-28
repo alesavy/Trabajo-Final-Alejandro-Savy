@@ -1,0 +1,77 @@
+//XL//
+@media (max-width:1200px) {
+	#intro {
+		width: 90%;
+		margin: auto;
+	}
+	#equipo {
+		width: 90%;
+		margin: auto;
+	}
+	#local {
+		flex-wrap: wrap;
+		padding-top: 30px;
+	}
+	.wrapper-local {
+		width: 90%;
+		margin: auto;
+		padding-top: 50px;
+	}
+	.logop {
+		height: 100px;
+	}
+}
+
+//Normal-Medium//
+@media (max-width:768px) {
+	#intro {
+		width: 90%;
+		margin: auto;
+	}
+	#equipo {
+		width: 90%;
+		margin: auto;
+	}
+	#img-equipo {
+		max-height: 20rem;
+		width: 90%;
+	}
+	.wrapper-local {
+		width: 90%;
+		margin: auto;
+		padding-top: 50px;
+	}
+	#local {
+		flex-wrap: wrap;
+	}
+	.mapa {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	#bg-contactos {
+		top: -120px;
+	}
+	.logop {
+		visibility: visible;
+	}
+}
+
+//Small//
+@media (max-width: 576px) {
+	#servicios-fila-2 {
+		width: 100%;
+	}
+	#servicios-fila-1 {
+		width: 100%;
+	}
+	.icono-wrap {
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+	}
+		.logop {
+		visibility: visible;
+	}
+}
